@@ -5,7 +5,7 @@
 <h2>📢 Reporting a Vulnerability</h2>
 <p>If you discover a security vulnerability in this project, please report it responsibly by following these steps:</p>
 <ol>
-  <li>Contact the project maintainers at <a href="mailto:security@example.com">security@example.com</a>.</li>
+  <li>Contact the project maintainers at https://www.linkedin.com/in/danilo-viteri-moreno.</li>
   <li>Provide detailed information about the vulnerability, including steps to reproduce it.</li>
   <li>Allow us a reasonable amount of time to address the issue before disclosing it publicly.</li>
 </ol>
