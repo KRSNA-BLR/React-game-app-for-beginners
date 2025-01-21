@@ -46,7 +46,7 @@
   <h2>📩 Reporting Issues</h2>
   <p>
     If you experience or witness unacceptable behavior, please report it to the project maintainers at 
-    <strong><a href="mailto:contact@example.com">contact@example.com</a></strong>. All reports will be handled confidentially.
+    <strong>https://www.linkedin.com/in/danilo-viteri-moreno/</strong>. All reports will be handled confidentially.
   </p>
 
   <hr>
