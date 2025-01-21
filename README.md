@@ -1,84 +1,103 @@
-<<<<<<< HEAD
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<body>
+  <h1 align="center">React Game App for Beginners 🎮</h1>
 
-# Getting Started
+  <p align="center">
+    <img src="https://github.com/KRSNA-BLR/React-game-app-for-beginners/blob/main/assets/React-game-app-for-beginners-kbasesorias.png" alt="React Game App for Beginners" style="max-width: 100%; height: auto;">
+  </p>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+  <p align="center">
+    <strong>Learn React Native by building a beginner-friendly block-stacking game.</strong> Perfect for learning game development and React Native basics! 🚀
+  </p>
 
-## Step 1: Start the Metro Server
+  <hr>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+  <h2>📋 Features</h2>
+  <ul>
+    <li>🎮 Responsive game grid.</li>
+    <li>🔄 Smooth block movements (left, right, and down).</li>
+    <li>🚀 Beginner-friendly React Native setup.</li>
+  </ul>
 
-To start Metro, run the following command from the _root_ of your React Native project:
+  <hr>
 
-```bash
-# using npm
-npm start
+  <h2>📖 Getting Started</h2>
+  <p>Follow these steps to set up and run the project:</p>
 
-# OR using Yarn
-yarn start
-```
+  <h3>Prerequisites</h3>
+  <p>Ensure the following are installed:</p>
+  <ul>
+    <li>Node.js (>= 14.x)</li>
+    <li>React Native CLI</li>
+    <li>Android Studio or Xcode (for emulators)</li>
+  </ul>
 
-## Step 2: Start your Application
+  <h3>Installation</h3>
+  <ol>
+    <li>Clone the repository:
+      <pre><code>git clone https://github.com/KRSNA-BLR/React-game-app-for-beginners.git</code></pre>
+    </li>
+    <li>Navigate to the project directory:
+      <pre><code>cd React-game-app-for-beginners</code></pre>
+    </li>
+    <li>Install dependencies:
+      <pre><code>npm install</code></pre>
+    </li>
+  </ol>
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+  <h3>Running the App</h3>
+  <ul>
+    <li><strong>For Android:</strong>
+      <pre><code>npx react-native run-android</code></pre>
+    </li>
+    <li><strong>For iOS:</strong>
+      <pre><code>npx react-native run-ios</code></pre>
+    </li>
+  </ul>
 
-### For Android
+  <hr>
 
-```bash
-# using npm
-npm run android
+  <h2>🛠️ Built With</h2>
+  <ul>
+    <li><strong>React Native:</strong> For the app framework.</li>
+    <li><strong>JavaScript:</strong> For game logic and React components.</li>
+  </ul>
 
-# OR using Yarn
-yarn android
-```
+  <hr>
 
-### For iOS
+  <h2>📂 Folder Structure</h2>
+  <pre>
+<code>
+src/
+├── components/   # Reusable UI components
+├── screens/      # Main game screen
+├── utils/        # Game logic and helper functions
+└── assets/       # Images and icons
+</code>
+  </pre>
 
-```bash
-# using npm
-npm run ios
+  <hr>
 
-# OR using Yarn
-yarn ios
-```
+  <h2>🚀 Future Improvements</h2>
+  <ul>
+    <li>🔄 Implement rotations for blocks.</li>
+    <li>🏆 Add scoring and levels.</li>
+    <li>🎨 Improve UI design with animations.</li>
+  </ul>
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+  <hr>
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+  <h2>📄 License</h2>
+  <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-## Step 3: Modifying your App
+  <hr>
 
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-=======
-# React-game-app-for-beginners
-Learn React Native by creating a beginner-friendly block-stacking game. Perfect for learning game development and React Native basics! 🚀
->>>>>>> dd480b2031d1ca0fc1e0c57baac2339773824781
+  <h2>🌟 Show Your Support</h2>
+  <p>If you like this project, please give it a ⭐ on GitHub and share it with others to help them learn React Native too!</p>
+</body>
+</html>
